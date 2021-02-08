@@ -1,5 +1,10 @@
 'use strict';
+//NOTE TO GRADING: When I use linux `cp starter-code starter-code-copy -r` it will make
+//a duplicate directory.  But i'm finding consistently that live server gets a 404 error in
+//trying to use the copied directory.
 
+//If it's costing any points, I'd really appreciate a notice, like just one line in slack
+// so I can try troubleshoot it.
 const names = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'chair', 'cthulhu', 'dog-duck', 'dragon', 'pen', 'pet-sweep', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'usb', 'water-can', 'wine-glass'];
 
 const leftImage = document.getElementById('left');
